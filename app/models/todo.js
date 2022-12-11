@@ -15,7 +15,7 @@ export const getTodos = () => {
   });
 };
 
-// Define the CRUD operations
+// Create a todo
 export const createTodo = ({ task }) => {
   return new Promise((resolve, reject) => {
     db.run(
